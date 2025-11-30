@@ -1,0 +1,18 @@
+package RepasoGeneral;
+
+import java.util.Scanner;
+
+public class RepasoGeneral4 {
+	static Scanner scr = new Scanner(System.in);
+	public static void main(String[] args) {
+		// Escribe un programa que solicite una cantidad en kilogramos y haga la conversión a libras.
+			//Declaramos a varaibles
+		double kilos = kilos();
+		System.out.printf("Equiavalente a libra: %.2f lb", (kilos*2.205));
+	}
+	//1º Funcion que lee los kilos
+	public static double kilos () {
+	System.out.print("Kilos: ");
+	return scr.nextDouble();
+	}
+}

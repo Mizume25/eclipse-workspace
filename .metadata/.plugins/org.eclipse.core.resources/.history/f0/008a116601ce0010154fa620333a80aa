@@ -1,0 +1,19 @@
+package RepasoGeneral;
+
+import java.util.Scanner;
+
+public class RepasoGeneral6 {
+static Scanner scr = new Scanner(System.in);
+	public static void main(String[] args) {
+		// 11. Escribe un programa que pida precio (sin IVA) y cantidad de 3 productos. El programa debe mostrar por pantalla:
+	    //1. El precio total por producto, teniendo en cuenta el IVA y la cantidad.
+	   // 2. El precio total del pedido, sin IVA y con IVA.
+		
+	}
+	
+	public static double precioProducto () {
+		
+		
+	}
+
+}

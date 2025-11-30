@@ -1,0 +1,12 @@
+package RepasoGeneral;
+
+public class RepasoGeneral3 {
+
+	public static void main(String[] args) {
+		// Pide al usuario la base y la altura (enteros) de un triángulo (pide cada uno por separado). 
+			//Calcula el área del triángulo utilizando la siguiente fórmula:
+		
+
+	}
+
+}

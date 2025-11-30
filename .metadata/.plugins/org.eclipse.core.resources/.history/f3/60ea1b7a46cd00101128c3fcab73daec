@@ -1,0 +1,10 @@
+package RepasoGeneral;
+
+public class RepasoGeneral1 {
+
+	public static void main(String[] args) {
+		// Escribe un programa que lea dos números decimales y escriba su suma
+		
+		
+	}
+}

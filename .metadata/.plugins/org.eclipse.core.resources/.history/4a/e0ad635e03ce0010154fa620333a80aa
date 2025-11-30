@@ -1,0 +1,32 @@
+package RepasoGeneral;
+
+import java.util.Scanner;
+
+public class RepasoGeneral6 {
+static Scanner scr = new Scanner(System.in);
+	public static void main(String[] args) {
+		// 11. Escribe un programa que pida precio (sin IVA) y cantidad de 3 productos. El programa debe mostrar por pantalla:
+	    //1. El precio total por producto, teniendo en cuenta el IVA y la cantidad.
+	   // 2. El precio total del pedido, sin IVA y con IVA.
+	int i = 1; //Declaramos el index antes del bucle
+	double[] precio = new double[3]; //Declaramos una variable array para imprimir la secuencia
+	double temp = 1;
+	// Declaramos una variable temporal
+	
+		//1º Crearemos un bucle para que imprima 3 veces
+		for (; i <= 3; i++) {
+			temp++;
+			precio[i] = precioProducto(); // se guardara los datos en cada posicion de cada array
+		}
+	
+	System.out.println("==Resultados==");
+	System.out.println("Producto 1:" + precio[0]); //Imprimimos la posicion correspondiente
+		
+	}
+	
+	public static double precioProducto (int i) {
+	System.out.println("Precio sin IVA del Producto " + i + ":");
+	return scr.nextDouble();
+	}
+
+}

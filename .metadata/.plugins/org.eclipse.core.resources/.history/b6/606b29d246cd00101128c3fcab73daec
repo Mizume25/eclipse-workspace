@@ -1,0 +1,18 @@
+package RepasoGeneral;
+
+import java.util.Scanner;
+
+public class RepasoGeneral1 {
+	static Scanner scr = new Sanner(System.in);
+	
+	public static void main(String[] args) {
+// Escribe un programa que lea dos números decimales y escriba su suma
+	
+		
+	}
+	
+	public static double read (String titulo) {
+	System.out.println(titulo);
+	return scr.nextDouble();
+	}
+}

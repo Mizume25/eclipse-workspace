@@ -1,0 +1,17 @@
+package RepasoGeneral;
+
+import java.util.Scanner;
+
+public class RepasoGeneral2 {
+static Scanner scr = new Scanner(System.in);
+	public static void main(String[] args) {
+		// 2. Pide al usuario la altura y el ancho de un rectángulo, con estos datos, calcula el perímetro del rectángulo.
+		double a = read("Altura: ");
+	}
+
+	//1º Funcion que lee base y altura
+	public static double read(String titulo) {
+	System.out.printl(titulo);
+	return scr.nextDouble();
+	}
+}
